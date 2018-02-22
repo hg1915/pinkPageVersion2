@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F7BC1A7FDFB10824E5DBC90 /* Pods_pinkPageVersion2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15821FB9B58E055F7110D84 /* Pods_pinkPageVersion2.framework */; };
+		C7102E14202A41BF008E10F2 /* LucidaGrande.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7102E11202A41BD008E10F2 /* LucidaGrande.ttf */; };
+		C7102E15202A41BF008E10F2 /* LucidaGrandeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C7102E12202A41BD008E10F2 /* LucidaGrandeBold.ttf */; };
+		C7102E16202A41BF008E10F2 /* sharefonts.net.txt in Resources */ = {isa = PBXBuildFile; fileRef = C7102E13202A41BD008E10F2 /* sharefonts.net.txt */; };
+		C7102E18202A5081008E10F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7102E17202A5081008E10F2 /* GoogleService-Info.plist */; };
 		C733B714202A33CD007081B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733B713202A33CD007081B5 /* AppDelegate.swift */; };
 		C733B716202A33CD007081B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C733B715202A33CD007081B5 /* ViewController.swift */; };
 		C733B719202A33CD007081B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C733B717202A33CD007081B5 /* Main.storyboard */; };
 		C733B71B202A33CD007081B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C733B71A202A33CD007081B5 /* Assets.xcassets */; };
 		C733B71E202A33CD007081B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C733B71C202A33CD007081B5 /* LaunchScreen.storyboard */; };
+		C7929EFE203A39D8006B769C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7929EFD203A39D7006B769C /* AuthService.swift */; };
+		C7929F02203A3D0A006B769C /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7929F01203A3D0A006B769C /* Users.swift */; };
+		C7929F04203AC2FE006B769C /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7929F03203AC2FE006B769C /* MyPageViewController.swift */; };
+		C7BF52ED202A36E200982D7B /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF52E8202A36E100982D7B /* PagesViewController.swift */; };
+		C7BF52EE202A36E200982D7B /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF52E9202A36E200982D7B /* WelcomeVC.swift */; };
+		C7BF52EF202A36E200982D7B /* ChooseLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF52EA202A36E200982D7B /* ChooseLocationVC.swift */; };
+		C7BF52F0202A36E200982D7B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF52EB202A36E200982D7B /* TabBarViewController.swift */; };
+		C7BF52F1202A36E200982D7B /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF52EC202A36E200982D7B /* CreateViewController.swift */; };
+		C7E87A8E202A384F001E4129 /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E87A8D202A384F001E4129 /* DesignableUITextField.swift */; };
+		C7E87A90202A3E79001E4129 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E87A8F202A3E79001E4129 /* ImageCollectionViewCell.swift */; };
+		C7E87A92202A3E85001E4129 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E87A91202A3E85001E4129 /* Struct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BFCC307800F08DB14357124 /* Pods-pinkPageVersion2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinkPageVersion2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pinkPageVersion2/Pods-pinkPageVersion2.debug.xcconfig"; sourceTree = "<group>"; };
+		2F5936D1DA8943F1193AB40B /* Pods-pinkPageVersion2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pinkPageVersion2.release.xcconfig"; path = "Pods/Target Support Files/Pods-pinkPageVersion2/Pods-pinkPageVersion2.release.xcconfig"; sourceTree = "<group>"; };
+		B15821FB9B58E055F7110D84 /* Pods_pinkPageVersion2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pinkPageVersion2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7102E11202A41BD008E10F2 /* LucidaGrande.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrande.ttf; sourceTree = "<group>"; };
+		C7102E12202A41BD008E10F2 /* LucidaGrandeBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrandeBold.ttf; sourceTree = "<group>"; };
+		C7102E13202A41BD008E10F2 /* sharefonts.net.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sharefonts.net.txt; sourceTree = "<group>"; };
+		C7102E17202A5081008E10F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C733B710202A33CD007081B5 /* pinkPageVersion2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinkPageVersion2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C733B713202A33CD007081B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C733B715202A33CD007081B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,19 @@
 		C733B71A202A33CD007081B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C733B71D202A33CD007081B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C733B71F202A33CD007081B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7929EFD203A39D7006B769C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		C7929F01203A3D0A006B769C /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		C7929F03203AC2FE006B769C /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		C7BF52E8202A36E100982D7B /* PagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
+		C7BF52E9202A36E200982D7B /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		C7BF52EA202A36E200982D7B /* ChooseLocationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseLocationVC.swift; sourceTree = "<group>"; };
+		C7BF52EB202A36E200982D7B /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C7BF52EC202A36E200982D7B /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		C7E87A8D202A384F001E4129 /* DesignableUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		C7E87A8F202A3E79001E4129 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C7E87A91202A3E85001E4129 /* Struct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		C7E87A94202A3FDA001E4129 /* LucidaGrande.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrande.ttf; sourceTree = "<group>"; };
+		C7E87A95202A3FE0001E4129 /* LucidaGrandeBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrandeBold.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7BC1A7FDFB10824E5DBC90 /* Pods_pinkPageVersion2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34DBE4B545F2360919EA4BFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B15821FB9B58E055F7110D84 /* Pods_pinkPageVersion2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89B068E5133B0FC1C76B97FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BFCC307800F08DB14357124 /* Pods-pinkPageVersion2.debug.xcconfig */,
+				2F5936D1DA8943F1193AB40B /* Pods-pinkPageVersion2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7102E10202A41BD008E10F2 /* lucida-grande */ = {
+			isa = PBXGroup;
+			children = (
+				C7102E11202A41BD008E10F2 /* LucidaGrande.ttf */,
+				C7102E12202A41BD008E10F2 /* LucidaGrandeBold.ttf */,
+				C7102E13202A41BD008E10F2 /* sharefonts.net.txt */,
+			);
+			name = "lucida-grande";
+			path = "../../lucida-grande";
+			sourceTree = "<group>";
+		};
 		C733B707202A33CD007081B5 = {
 			isa = PBXGroup;
 			children = (
 				C733B712202A33CD007081B5 /* pinkPageVersion2 */,
 				C733B711202A33CD007081B5 /* Products */,
+				89B068E5133B0FC1C76B97FF /* Pods */,
+				34DBE4B545F2360919EA4BFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +121,53 @@
 		C733B712202A33CD007081B5 /* pinkPageVersion2 */ = {
 			isa = PBXGroup;
 			children = (
+				C7929EFF203A3BB6006B769C /* Model */,
+				C7929F00203A3BC0006B769C /* Controller */,
+				C7102E17202A5081008E10F2 /* GoogleService-Info.plist */,
+				C7102E10202A41BD008E10F2 /* lucida-grande */,
 				C733B713202A33CD007081B5 /* AppDelegate.swift */,
-				C733B715202A33CD007081B5 /* ViewController.swift */,
 				C733B717202A33CD007081B5 /* Main.storyboard */,
+				C7E87A8D202A384F001E4129 /* DesignableUITextField.swift */,
 				C733B71A202A33CD007081B5 /* Assets.xcassets */,
 				C733B71C202A33CD007081B5 /* LaunchScreen.storyboard */,
 				C733B71F202A33CD007081B5 /* Info.plist */,
+				C7E87A93202A3FC2001E4129 /* lucida-grande */,
 			);
 			path = pinkPageVersion2;
+			sourceTree = "<group>";
+		};
+		C7929EFF203A3BB6006B769C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7E87A8F202A3E79001E4129 /* ImageCollectionViewCell.swift */,
+				C7E87A91202A3E85001E4129 /* Struct.swift */,
+				C7929EFD203A39D7006B769C /* AuthService.swift */,
+				C7929F01203A3D0A006B769C /* Users.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7929F00203A3BC0006B769C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7BF52E9202A36E200982D7B /* WelcomeVC.swift */,
+				C7BF52EA202A36E200982D7B /* ChooseLocationVC.swift */,
+				C7929F03203AC2FE006B769C /* MyPageViewController.swift */,
+				C7BF52EC202A36E200982D7B /* CreateViewController.swift */,
+				C7BF52E8202A36E100982D7B /* PagesViewController.swift */,
+				C733B715202A33CD007081B5 /* ViewController.swift */,
+				C7BF52EB202A36E200982D7B /* TabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C7E87A93202A3FC2001E4129 /* lucida-grande */ = {
+			isa = PBXGroup;
+			children = (
+				C7E87A95202A3FE0001E4129 /* LucidaGrandeBold.ttf */,
+				C7E87A94202A3FDA001E4129 /* LucidaGrande.ttf */,
+			);
+			path = "lucida-grande";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C733B722202A33CD007081B5 /* Build configuration list for PBXNativeTarget "pinkPageVersion2" */;
 			buildPhases = (
+				BB18F43F9C9413A370A41441 /* [CP] Check Pods Manifest.lock */,
 				C733B70C202A33CD007081B5 /* Sources */,
 				C733B70D202A33CD007081B5 /* Frameworks */,
 				C733B70E202A33CD007081B5 /* Resources */,
+				4664610A81AAED6107BE07A3 /* [CP] Embed Pods Frameworks */,
+				B17C378012C0C3C7BFF1C8BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,21 +232,102 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7102E16202A41BF008E10F2 /* sharefonts.net.txt in Resources */,
 				C733B71E202A33CD007081B5 /* LaunchScreen.storyboard in Resources */,
+				C7102E15202A41BF008E10F2 /* LucidaGrandeBold.ttf in Resources */,
 				C733B71B202A33CD007081B5 /* Assets.xcassets in Resources */,
+				C7102E18202A5081008E10F2 /* GoogleService-Info.plist in Resources */,
 				C733B719202A33CD007081B5 /* Main.storyboard in Resources */,
+				C7102E14202A41BF008E10F2 /* LucidaGrande.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4664610A81AAED6107BE07A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-pinkPageVersion2/Pods-pinkPageVersion2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KMPlaceholderTextView/KMPlaceholderTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KMPlaceholderTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pinkPageVersion2/Pods-pinkPageVersion2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17C378012C0C3C7BFF1C8BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pinkPageVersion2/Pods-pinkPageVersion2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB18F43F9C9413A370A41441 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pinkPageVersion2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C733B70C202A33CD007081B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BF52ED202A36E200982D7B /* PagesViewController.swift in Sources */,
 				C733B716202A33CD007081B5 /* ViewController.swift in Sources */,
+				C7BF52F1202A36E200982D7B /* CreateViewController.swift in Sources */,
+				C7E87A8E202A384F001E4129 /* DesignableUITextField.swift in Sources */,
+				C7929F02203A3D0A006B769C /* Users.swift in Sources */,
+				C7BF52EF202A36E200982D7B /* ChooseLocationVC.swift in Sources */,
+				C7929EFE203A39D8006B769C /* AuthService.swift in Sources */,
+				C7929F04203AC2FE006B769C /* MyPageViewController.swift in Sources */,
 				C733B714202A33CD007081B5 /* AppDelegate.swift in Sources */,
+				C7E87A90202A3E79001E4129 /* ImageCollectionViewCell.swift in Sources */,
+				C7BF52F0202A36E200982D7B /* TabBarViewController.swift in Sources */,
+				C7E87A92202A3E85001E4129 /* Struct.swift in Sources */,
+				C7BF52EE202A36E200982D7B /* WelcomeVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +462,13 @@
 		};
 		C733B723202A33CD007081B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFCC307800F08DB14357124 /* Pods-pinkPageVersion2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X68MHQHN3P;
 				INFOPLIST_FILE = pinkPageVersion2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.g.pinkPageVersion2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +479,13 @@
 		};
 		C733B724202A33CD007081B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F5936D1DA8943F1193AB40B /* Pods-pinkPageVersion2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X68MHQHN3P;
 				INFOPLIST_FILE = pinkPageVersion2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.g.pinkPageVersion2;
 				PRODUCT_NAME = "$(TARGET_NAME)";

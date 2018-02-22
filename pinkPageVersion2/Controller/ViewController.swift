@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  pinkPageVersion2
-//
-//  Created by HG on 2/6/18.
-//  Copyright © 2018 GGTECH. All rights reserved.
-//
+
 
 import UIKit
 
